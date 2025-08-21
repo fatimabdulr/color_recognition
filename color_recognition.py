@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# افتح الفيديو (غيري الاسم لو عندك فيديو ثاني)
+# افتح الفيديو 
 cap = cv2.VideoCapture("855474-hd_1920_1080_24fps.mp4")
 
 # تحديد نطاق اللون الأحمر بالـ HSV
@@ -32,3 +32,4 @@ while True:
 
 cap.release()
 cv2.destroyAllWindows()
+
